@@ -193,7 +193,6 @@ public class AdminService {
 		servicesRepository.deleteById(id);
 		return new ResponseEntity<>(HttpStatus.OK);
 	}
-
 	// create new package
 	public ResponseEntity<ServicePackage> createPackage(final ServicePackage packageData){
 		
